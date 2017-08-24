@@ -9,11 +9,7 @@ Author URI:  https://swissacademy.eu
 */
 
 
-/* nume shortcode, doar un cuvant */
-add_shortcode('imagine_banner','wa_image'); 
-add_filter('wp_title','wa_title');
-add_filter('the_content','wa_semnatura');
-add_action('admin_notices','wa_notice');
+
 
 function wa_image() {
     echo '<img src="http://placehold.it/350x150">';
@@ -33,6 +29,12 @@ function wa_notice() {
 function wa_title($titlu) {
     echo $titlu.' :) ';
 }
+
+/* nume shortcode, doar un cuvant */
+add_shortcode('imagine_banner','wa_image'); 
+add_filter('wp_title','wa_title');
+add_filter('the_content','wa_semnatura');
+add_action('admin_notices','wa_notice');
 
 
 

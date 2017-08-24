@@ -9,6 +9,7 @@ Author URI:  https://swissacademy.eu
 */
 
 
+/* Ana are mere */ 
 
 
 function wa_image() {

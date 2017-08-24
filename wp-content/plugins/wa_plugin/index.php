@@ -9,7 +9,7 @@ Author URI:  https://swissacademy.eu
 */
 
 
-/* Ana are mere */ 
+
 
 
 function wa_image() {
@@ -38,5 +38,7 @@ add_filter('wp_title','wa_title');
 add_filter('the_content','wa_semnatura');
 add_action('admin_notices','wa_notice');
 
+
+/* Ana are mere */ 
 
 
